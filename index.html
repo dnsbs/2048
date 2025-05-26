@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 Image Game</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+      margin: 0;
+    }
+    #game {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2vw;
+      background: #bbada0;
+      padding: 2vw;
+      border-radius: 2vw;
+      width: 90vw;
+      max-width: 400px;
+      box-sizing: border-box;
+    }
+    .tile {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background: #ccc0b3;
+      border-radius: 1vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tile img {
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <div id="game">
+    <div class="tile"><img src="2048_images/0002.png.jpg" alt="2" /></div>
+    <div class="tile"><img src="2048_images/0004.png.jpg" alt="4" /></div>
+    <div class="tile"><img src="2048_images/0008.png.jpg" alt="8" /></div>
+    <div class="tile"><img src="2048_images/0016.png.jpg" alt="16" /></div>
+    <div class="tile"><img src="2048_images/0032.png.jpg" alt="32" /></div>
+    <div class="tile"><img src="2048_images/0064.png.jpg" alt="64" /></div>
+    <div class="tile"><img src="2048_images/0128.png.jpg" alt="128" /></div>
+    <div class="tile"><img src="2048_images/0256.png.jpg" alt="256" /></div>
+    <div class="tile"><img src="2048_images/0512.png.jpg" alt="512" /></div>
+    <div class="tile"><img src="2048_images/1024.png.jpg" alt="1024" /></div>
+    <div class="tile"><img src="2048_images/2048.png.jpg" alt="2048" /></div>
+  </div>
+</body>
+</html>
